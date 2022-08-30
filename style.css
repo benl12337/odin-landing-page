@@ -1,0 +1,174 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.sec1 {
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color: rgb(47, 52, 70);
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec2 h1 {
+    font-size: 48px;
+}
+
+.sec3 {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.sec p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#quote {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 50px;
+    margin-bottom: -40px;
+}
+
+#author {
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    width: 200px;
+    height: auto;
+    justify-content: center;
+    margin-bottom: 75px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(61, 61, 61);
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border: 4px rgb(52, 144, 230) solid;
+}
+
+h3 {
+    color: white;
+    font-weight: bolder;
+}
+
+.sec1 button {
+    background-color: rgb(52, 144, 230);
+    font-size: 18px;
+    color: white;
+    font-weight: 800;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sec4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4 p {
+    color: white;
+}
+
+.banner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 100px;
+    background-color: rgb(52, 144, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    gap: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.box2 {
+    text-align: right;
+}
+.right-banner button {
+    font-weight: bold;
+    font-size: 12px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 2px white solid;
+}
+
+.content1-left p {
+    font-size: 24px;
+}
+
+li {
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.content1-left {
+    width: 500px;
+    flex-shrink: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+
